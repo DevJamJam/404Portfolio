@@ -1,238 +1,294 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!--SEO : Search Engine Optimization -->
-        <title>Yuri&#39;s Portfolio</title>
-        <meta name="description" content="Portfolio for webdeveloper Yuri" />
-        <meta name="author" content="Yuri" />
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <!-- OG :Open Graph Data  -->
-        <meta property="og:title" content="Portfolio for webdeveloper Yuri" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="배포후 생성된 url 넣기" />
-        <meta property="og:image" content="배포후 생성된 url image" />
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
-        <!-- Font Awesome-->
-        <script src="https://kit.fontawesome.com/b13d4a2d33.js" crossorigin="anonymous"></script>
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- Javascript -->
-        <script src="src/main.js" defer></script>
-    </head>
-    <body>
-        <!-- Header -->
-        <header class="header">
-            <div class="header__logo">
-                <img class="header__logo__img"src="images/favicon.ico" alt="logo">
-                <h1 class="header__logo__title"><a href="#">Yuri</a></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--SEO : Search Engine Optimization -->
+    <title>Yuri&#39;s Portfolio</title>
+    <meta name="description" content="Portfolio for webdeveloper Yuri" />
+    <meta name="author" content="Yuri" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- OG :Open Graph Data  -->
+    <meta property="og:title" content="Portfolio for webdeveloper Yuri" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="배포후 생성된 url 넣기" />
+    <meta property="og:image" content="배포후 생성된 url image" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/b13d4a2d33.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Javascript -->
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
+        <h1 class="header__logo__title"><a href="#">Yuri</a></h1>
+      </div>
+      <nav>
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">My Work</a></li>
+          <!-- <li><a class="header__menu__item" href="#testimonials">Testimonials</a></li> -->
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <img
+          class="home__avatar"
+          src="images/profile_img.png"
+          alt="Yuri's profile"
+        />
+        <h2 class="home__title">
+          Hello <br />
+          I&#39;m a <strong class="home__title--strong">Web Developer</strong>,
+          Yuri
+        </h2>
+        <p class="home__description">
+          I am a web developer. <br />
+          I like to collaborate and communicate. <br />
+          live in Seongdong-gu, Seoul
+        </p>
+        <a class="home__contact" href="#contact">Contact Me</a>
+      </section>
+      <!-- About -->
+      <section id="about" class="section max-container">
+        <h2 class="title">About me</h2>
+        <p class="profile-description">
+          <strong>협업을 통해 성장하는 개발자</strong>
+        </p>
+        <p class="profile-text">
+          저는 팀원들과의 협력을 통해 더 나은 성과를 창출하는 것을 중요하게
+          생각합니다. 프로젝트 진행 시 팀 회의를 주도하며, 원활한 소통과 문제
+          해결에 집중했습니다. 이를 통해 팀 분위기를 긍정적으로 변화시키고, 업무
+          효율성을 크게 향상시켰습니다.
+        </p>
+        <p class="profile-text">
+          또한, 주기적인 세미나와 워크숍을 통해 팀 내 기술 공유 문화를
+          정착시키고자 노력했습니다. 새로운 기술이나 도구를 도입할 때는 팀원들과
+          적극적으로 정보를 나누고 함께 학습하며 성장해왔습니다. 이러한 노력
+          덕분에 팀의 기술적 역량이 향상되었고, 변화하는 환경에도 유연하게
+          대응할 수 있었습니다.
+        </p>
+        <p class="profile-text">
+          물론, 모든 과정이 순탄했던 것은 아닙니다. 새로운 기술 스택을 도입할 때
+          일부 팀원의 반대가 있었지만, 개별적인 소통을 통해 의견을 조율하고,
+          충분한 정보를 제공함으로써 합의를 이끌어낸 경험이 있습니다.
+        </p>
+        <p class="profile-text">
+          저는 효과적인 협업과 지식 공유를 바탕으로 팀의 성장에 기여하며, 더
+          나은 사용자 경험을 만드는 데 집중합니다. 새로운 기술과 도구를
+          적극적으로 탐색하고, 변화하는 환경에서도 유연하게 대응하는 것을
+          중요하게 생각합니다. 팀원들과 긴밀히 소통하며 시너지를 만들어내고,
+          함께 성장하는 개발자로서 의미 있는 변화를 만들어가고 싶습니다.
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
+            <p>HTML, CSS, WebAPIs, JavaScript, TypeScript, React, Next</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
+            <p>Node, express, Sequelize, Nest, firebase, AWS</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-screwdriver-wrench major__icon"></i>
+            <p class="major__title">IDE & Tools</p>
+            <p>Vscode, Eclipse, Git, Github, GitLab</p>
+          </li>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img
+              class="job__image"
+              src="images/jobs/smartCore.JPG"
+              alt="smartcoreLogo"
+            />
+            <div>
+              <p class="job__name">UI/UX팀 매니저</p>
+              <p class="job__period">2021.06 ~ 2021.11</p>
             </div>
-            <nav>
-                <ul class="header__menu">
-                    <li><a class="header__menu__item active" href="#home">Home</a></li>
-                    <li><a class="header__menu__item" href="#about">About</a></li>
-                    <li><a class="header__menu__item" href="#skills">Skills</a></li>
-                    <li><a class="header__menu__item" href="#work">My Work</a></li>
-                    <!-- <li><a class="header__menu__item" href="#testimonials">Testimonials</a></li> -->
-                    <li><a class="header__menu__item" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Main -->
-        <main>
-            <!-- Home -->
-            <section id="home">
-                <img class="home__avatar" src="images/profile_img.png" alt="Yuri's profile">
-                <h2 class="home__title">Hello <br/> I&#39;m a <strong class="home__title--strong">Web Developer</strong>, Yuri</h2>
-                <p class="home__description">
-                    I am a web front-end developer. <br/> 
-                    I like to collaborate and communicate. <br/> 
-                    live in Seongdong-gu, Seoul
+          </li>
+          <li class="job">
+            <img
+              class="job__image"
+              src="images/jobs/inswave.JPG"
+              alt="inswaveLogo"
+            />
+            <div>
+              <p class="job__name">UI플랫폼팀 연구원</p>
+              <p class="job__period">2021.12 ~ 2023.03</p>
+            </div>
+          </li>
+          <li class="job">
+            <img
+              class="job__image"
+              src="images/jobs/urban.JPG"
+              alt="urbanLogo"
+            />
+            <div>
+              <p class="job__name">개발플랫폼2팀 매니저</p>
+              <p class="job__period">2023.05 ~ 2023.08</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">My Skills</h2>
+          <p class="description">Skills & Attributes</p>
+          <p>협업과 소통을 좋아하는 개발자</p>
+          <div class="skills-container">
+            <section class="skills__coding">
+              <h3 class="skills__title">Coding Skills</h3>
+              <ul>
+                <li>
+                  <div><span>HTML</span><span>98%</span></div>
+                  <div><div style="width: 98%"></div></div>
+                </li>
+                <li>
+                  <div><span>CSS</span><span>90%</span></div>
+                  <div><div style="width: 90%"></div></div>
+                </li>
+                <li>
+                  <div><span>JavaScript</span><span>90%</span></div>
+                  <div><div style="width: 90%"></div></div>
+                </li>
+                <li>
+                  <div><span>TypeScript</span><span>65%</span></div>
+                  <div><div style="width: 65%"></div></div>
+                </li>
+                <li>
+                  <div><span>React</span><span>85%</span></div>
+                  <div><div style="width: 85%"></div></div>
+                </li>
+                <li>
+                  <div><span>NodeJs</span><span>50%</span></div>
+                  <div><div style="width: 50%"></div></div>
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">Tools</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>Eclipse</li>
+                <li>Github</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">Etc</h3>
+              <ul>
+                <li>GIT</li>
+                <li>SVN</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section id="work" class="section">
+        <h2 class="title">My work</h2>
+        <p class="description">Projects</p>
+        <ul>
+          <li>
+            <button>ALL <span>5</span></button>
+          </li>
+          <li>
+            <button>Front-end <span>3</span></button>
+          </li>
+          <li>
+            <button>Full <span>2</span></button>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#" target="_blank">
+              <img
+                src="images/projects/project_gongsabird.JPG"
+                alt="gongsabirdProject"
+              />
+              <div>
+                <h3>Gongsabird Project</h3>
+                <p>Twitter Clone Coding with React, Next, Redux, NodeJS</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img
+                src="images/projects/project_emotion.JPG"
+                alt="emotionDiaryProject"
+              />
+              <div>
+                <h3>Emotion Diary Project</h3>
+                <p>나만의 감정기록장 만들기 with React, firebase</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img
+                src="images/projects/project_dtverse.JPG"
+                alt="dtverseProject"
+              />
+              <div>
+                <h3>Dtverse Project</h3>
+                <p>메타버스기반 DTx임상지원 플랫폼 개발 with React, NestJS</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img src="images/projects/project_hize.JPG" alt="hizeProject" />
+              <div>
+                <h3>Hize Project</h3>
+                <p>주식메신저 Hize 플랫폼 Front-end 개발 with React</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img
+                src="images/projects/project_gbrick.JPG"
+                alt="gbrickProject"
+              />
+              <div>
+                <h3>Gbrick Project</h3>
+                <p>
+                  블록체인 결제 플랫폼 Gbrickpay Front-end 개발 with Java,
+                  JavaScript
                 </p>
-                <a class="home__contact" href="#contact">Contact Me</a>
-            </section>
-            <!-- About -->
-            <section id="about" class="section max-container">
-                <h2 class="title">About me</h2>
-                <p class="description">
-                    <strong>
-                        팀원들과의 협업을 통해 더 나은 성과를 이루고자 하는
-                        주니어 프론트엔드 개발자입니다.
-                    </strong> <br/>
-                    팀 내 협업과 소통은 제 업무에서 가장 핵심적인 가치 중 하나로 꼽고 있습니다. <br/>
-                    이전 경험 중에서도 팀 회의를 주도하여 프로젝트의 진행 상황을 공유하고, 각 팀원들이 마주한 어려움에 대한 해결책을 찾아내는 데에 주력했습니다. <br/>
-                    이로써 팀 내 분위기가 긍정적으로 변하면서 업무 효율성 또한 크게 향상되었습니다. <br/>
-                    또한, 업무 분장과 역할을 명확하게 정의하여 팀원들 간의 협업을 원활하게 이끌어내어 프로젝트의 성공에 기여하였습니다.<br/>
-                    <br/>
-                    기술 공유 측면에서도 주기적인 세미나와 워크샵을 통해 동료들과의 지식 교류를 촉진하였습니다. <br/>
-                    새로운 기술이나 도구의 도입 시에는 팀원들과 적극적으로 정보를 나누어 함께 학습하고 성장하고자 노력했습니다. <br/>
-                    이로 인해 팀 내의 기술적 역량이 향상되었고, 프로젝트에서는 빠르게 변화하는 환경에 유연하게 대응할 수 있었습니다.<br/>
-                    <br/>
-                    물론, 모든 결정에서 긍정적인 결과만을 얻는 것은 어려운 일이었습니다. <br/>
-                    예를 들어, 새로운 기술 스택 도입 등에서는 몇몇 팀원들의 부정적인 시각이 있었습니다.<br/>
-                    그럴 때에는 이해관계자들과의 개별 대화를 통해 상황을 조율하고, 추가적인 정보를 제공하여 합의를 이끌어냈습니다. <br/>
-                    <br/>
-                    2년의 주니어 프론트엔드 개발자로서의 경험을 토대로, 더 나은 팀워크와 지식 공유를 통해 팀과 조직의 성과를 높이고자 합니다.<br/>
-                    함께 성장하고 발전하는 팀의 일원으로서 적극적인 기여를 하고 싶습니다.
-                </p>
-                <ul class="majors">
-                    <li class="major">
-                        <i class="fa-brands fa-html5 major__icon"></i>
-                        <p class="major__title">Front-end</p>
-                        <p>HTML, CSS, WebAPIs, JavaScript,  TypeScript, React, Next</p>
-                    </li>
-                    <li class="major">
-                        <i class="fa-solid fa-server major__icon"></i>
-                        <p class="major__title">Back-end</p>
-                        <p>Node, express, Sequelize, Nest, firebase, AWS</p>
-                    </li>
-                    <li class="major">
-                        <i class="fa-solid fa-screwdriver-wrench major__icon"></i>
-                        <p class="major__title">IDE & Tools</p>
-                        <p>Vscode, Eclipse, Git, Github, GitLab</p>
-                    </li>
-                </ul>
-                <ul class="jobs">
-                    <li class="job">
-                        <img class="job__image" src="images/jobs/smartCore.JPG" alt="smartcoreLogo">
-                        <div>
-                            <p class="job__name">UI/UX팀 매니저</p>
-                            <p class="job__period">2021.06 ~ 2021.11</p>
-                        </div>
-                    </li>
-                    <li class="job">
-                        <img class="job__image" src="images/jobs/inswave.JPG" alt="inswaveLogo">
-                        <div>
-                            <p class="job__name">UI플랫폼팀 연구원</p>
-                            <p class="job__period">2021.12 ~ 2023.03</p>
-                        </div>
-                    </li>
-                    <li class="job">
-                        <img class="job__image" src="images/jobs/urban.JPG" alt="urbanLogo">
-                        <div>
-                            <p class="job__name">개발플랫폼2팀 매니저</p>
-                            <p class="job__period">2023.05 ~ 2023.08</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <!-- Skills -->
-            <section id="skills" class="section">
-                <h2 class="title">My Skills</h2>
-                <p class="description">Skills & Attributes</p>
-                <p>협업과 소통을 좋아하는 주니어 Front-end 개발자</p>
-                <div>
-                    <section>
-                        <h3>Coding Skills</h3>
-                        <ul>
-                            <li>
-                                <div><span>HTML</span><span>98%</span></div>
-                                <div><div style="width: 98%"></div></div>
-                            </li>
-                            <li>
-                                <div><span>CSS</span><span>90%</span></div>
-                                <div><div style="width: 90%"></div></div>
-                            </li>
-                            <li>
-                                <div><span>JavaScript</span><span>90%</span></div>
-                                <div><div style="width: 90%"></div></div>
-                            </li>
-                            <li>
-                                <div><span>TypeScript</span><span>65%</span></div>
-                                <div><div style="width: 65%"></div></div>
-                            </li>
-                            <li>
-                                <div><span>React</span><span>85%</span></div>
-                                <div><div style="width: 85%"></div></div>
-                            </li>
-                            <li>
-                                <div><span>NodeJs</span><span>50%</span></div>
-                                <div><div style="width: 50%"></div></div>
-                            </li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Tools</h3>
-                        <ul>
-                            <li>Visual Studio Code</li>
-                            <li>Eclipse</li>
-                            <li>Github</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Etc</h3>
-                        <ul>
-                            <li>GIT</li>
-                            <li>SVN</li>
-                        </ul>
-                    </section>
-                </div>
-            </section>
-            <!-- Work -->
-            <section id="work" class="section">
-                <h2 class="title">My work</h2>
-                <p class="description">Projects</p>
-                <ul>
-                    <li><button>ALL <span>5</span></button></li>
-                    <li><button>Front-end <span>3</span></button></li>
-                    <li><button>Full <span>2</span></button></li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="images/projects/project_gongsabird.JPG" alt="gongsabirdProject">
-                            <div>
-                                <h3>Gongsabird Project</h3>
-                                <p>Twitter Clone Coding with React, Next, Redux, NodeJS</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="images/projects/project_emotion.JPG" alt="emotionDiaryProject">
-                            <div>
-                                <h3>Emotion Diary Project</h3>
-                                <p>나만의 감정기록장 만들기 with React, firebase</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="images/projects/project_dtverse.JPG" alt="dtverseProject">
-                            <div>
-                                <h3>Dtverse Project</h3>
-                                <p>메타버스기반 DTx임상지원 플랫폼 개발 with React, NestJS</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="images/projects/project_hize.JPG" alt="hizeProject">
-                            <div>
-                                <h3>Hize Project</h3>
-                                <p>주식메신저 Hize 플랫폼 Front-end 개발 with React</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
-                            <img src="images/projects/project_gbrick.JPG" alt="gbrickProject">
-                            <div>
-                                <h3>Gbrick Project</h3>
-                                <p>블록체인 결제 플랫폼 Gbrickpay Front-end 개발 with Java, JavaScript</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <!-- Testimonials -->
-            <section id="testimonials" class="section">
-                <!-- <h2 class="title">Testimonials</h2>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- Testimonials -->
+      <section id="testimonials" class="section">
+        <!-- <h2 class="title">Testimonials</h2>
                 <p class="description">See what they about me</p>
                 <ul>
                     <li>
@@ -263,31 +319,39 @@
                         </div>
                     </li>
                 </ul> -->
-            </section>
-            <!-- Arrow up -->
-            <aside>
-                <a href="#home" title="back to top">
-                    <i class="fa-solid fa-arrow-up"></i>
-                </a>
-            </aside>
-        </main>
-        <!-- Footer -->
-        <footer id="contact" class="section">
-            <h2 class="title">Let&#39;s talk</h2>
-            <p class="description">jhy1025a@gmail.com</p>
-            <ul>
-                <li>
-                    <a href="https://github.com/developer-jamjam" target="_blank" title="my github link">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/devyuri1025" target="_blank" title="my linkedin link">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-            </ul>
-            <p>ⓒWeb front-end developer Yuri</p>
-        </footer>
-    </body>
+      </section>
+      <!-- Arrow up -->
+      <aside>
+        <a href="#home" title="back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+      <h2 class="title">Let&#39;s talk</h2>
+      <p class="description">jhy1025a@gmail.com</p>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/developer-jamjam"
+            target="_blank"
+            title="my github link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/devyuri1025"
+            target="_blank"
+            title="my linkedin link"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <p>ⓒWeb front-end developer Yuri</p>
+    </footer>
+  </body>
 </html>
